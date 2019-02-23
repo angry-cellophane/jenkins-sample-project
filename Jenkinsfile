@@ -1,4 +1,8 @@
-@Library('sample-lib@master123') _
+//@Library('sample-lib@master123') _
+
+import;
+
+kaskaskdasa;
 
 echo 'hello'
 println(env['NIO'])
