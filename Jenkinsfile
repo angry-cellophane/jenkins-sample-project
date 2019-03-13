@@ -1,4 +1,4 @@
-@Library('sample-lib@master123') _
+@Library('sample-lib@master') _
 
 echo 'hello'
 println(env['NIO'])
