@@ -1,4 +1,4 @@
-//@Library('sample-lib@master') _
+@Library('sample-lib@master') _
 
 node('master') {
     sh 'env'
