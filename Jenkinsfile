@@ -3,7 +3,8 @@
 echo 'hello'
 println(env['NIO'])
 echo "nio id = ${env['NIO']}"
-echo(env.toString())
+
+println(env.getEnvironment())
 
 node('master') {
     sh 'echo nio id = $NIO'
@@ -11,5 +12,4 @@ node('master') {
     echo "nio id = ${env['NIO']}"
     sh 'echo nio id = $NIO'
     sh 'echo hello'
-    echo(env.toString())
 }
