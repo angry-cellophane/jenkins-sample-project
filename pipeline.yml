@@ -1,0 +1,7 @@
+steps:
+  analysis:
+    - echo analysis1
+    - echo analysis2
+  test:
+    - echo test1
+    - echo test2
